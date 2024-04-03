@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using HP.HPTRIM.SDK;
 using System.Diagnostics;
 using System.Configuration;
+using TRIM.SDK;
 
 namespace HP.HPTRIM.SDK.Samples.BulkLoading
 {

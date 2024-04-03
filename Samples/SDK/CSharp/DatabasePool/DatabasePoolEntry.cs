@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TRIM.SDK;
 
 namespace HP.HPTRIM.SDK.Samples
 {
@@ -43,8 +40,8 @@ namespace HP.HPTRIM.SDK.Samples
         }
 
 
-        private HP.HPTRIM.SDK.Database _trimDatabase;
-        public HP.HPTRIM.SDK.Database TrimDatabase
+        private Database _trimDatabase;
+        public Database TrimDatabase
         {
             get
             {
@@ -162,7 +159,7 @@ namespace HP.HPTRIM.SDK.Samples
                 {
                     if (null != _trimDatabase)
                     {
-                        if (_trimDatabase is SDK.Database)
+                        if (_trimDatabase is Database)
                         {
 
                             try

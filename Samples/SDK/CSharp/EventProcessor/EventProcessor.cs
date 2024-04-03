@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using HP.HPTRIM.SDK;
 using System.IO;
+using TRIM.SDK;
 
 // This source code provides an example of how to write a TRIM event processor
 // Addin.  
@@ -58,8 +56,7 @@ namespace HP.HPTRIM.SDK.Samples
         }
 
 
-        public override void ProcessEvent(HP.HPTRIM.SDK.Database db,
-                                            HP.HPTRIM.SDK.TrimEvent eventData)
+        public override void ProcessEvent(Database db, TrimEvent eventData)
         {           
 
             StringBuilder logEntry = new StringBuilder();

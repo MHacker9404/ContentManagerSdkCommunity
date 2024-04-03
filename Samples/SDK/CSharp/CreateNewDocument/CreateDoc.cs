@@ -1,5 +1,4 @@
-﻿using HP.HPTRIM.SDK;
-/*
+﻿/*
  * This class(Form) will show how to create a Record in HPRM via program using SDK dll.
  * CreateDoc class having required controls and its event handlers. * 
  * To test this application simply run the CreateNewDocument.exe
@@ -9,6 +8,7 @@ using System.Configuration;
 using System.IO;
 //using System.Threading.Tasks;
 using System.Windows.Forms;
+using TRIM.SDK;
 
 namespace CreateNewDocument
 {
@@ -38,10 +38,10 @@ namespace CreateNewDocument
                         //define record type
                         RecordType recType = new RecordType(db, ConfigurationManager.AppSettings["recordType"]);
 
-                        HP.HPTRIM.SDK.Record rd = new Record(recType);
+                        Record rd = new Record(recType);
                         rd.Title = fi.Name;
 
-                        HP.HPTRIM.SDK.InputDocument objDoc = new InputDocument();
+                        InputDocument objDoc = new InputDocument();
                         objDoc.SetAsFile(txtFilePath.Text.Trim());
                         
 

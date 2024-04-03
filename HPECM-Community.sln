@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkDataLoader", "Samples\SDK\CSharp\BulkDataLoader\BulkDataLoader.csproj", "{E7CF6AB8-F9A7-40A1-9283-88B7D52EDF29}"
 EndProject
@@ -26,6 +26,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabasePool", "Samples\SDK\CSharp\DatabasePool\DatabasePool.csproj", "{A0CBACE7-69E5-4CA4-A54C-F64CB0735C60}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORSModule", "Samples\ServiceAPI\CSharp\CORSModule\CORSModule.csproj", "{1F68FEF2-3932-4869-A329-76C7318E92BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E28E3844-F81F-4C08-A6D1-206F45A4A0F0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
